@@ -1,0 +1,59 @@
+title: "Building Sophisticated Agents that can understand the Healthcare billing space and EDI document formats used in Healthcare"
+suggest_title: True
+generate_citations: True
+type_of_document: "A White Paper"
+area_of_paper: "AI Agents in Healthcare Billing"
+section_names:
+- Introduction
+- Revenue Cycle Management
+- Multi-Agent Architecture
+- Agents for analyzing EDI documents
+- Agents for analyzing Healthcare contracts
+- Identifying, explaining and appealing Underpayments
+- Identifying, explaining and appealing Denials
+number_of_paragraphs:
+  "Introduction": 4
+  "Revenue Cycle Management": 2
+  "Multi-Agent Architecture": 4
+  "Agents for analyzing EDI documents": 4
+  "Agents for analyzing Healthcare contracts": 3
+  "Identifying, explaining and appealing Underpayments": 2
+  "Identifying, explaining and appealing Denials":2
+hypothesis: "
+This white paper is about how to build a multi-agent AI system that understands various EDI documents, healthcare contra cts between hospitals and Insurance carriers, and any related information used in healthcare billing, extract insights from these documents so that denials and underpayments are identified and appeal letters generated automatically.
+The whitepaper will look to bring together the expertise required to identify, explain and appeal denials and underpayments by using specialized agents with knowledge, skills and tools to build a solution
+"
+instructions: "
+We will look at introducing the complexity of healthcare billing and payments between hospitals and Insurance carriers and the cost hospitals incur due to inefficiencies in billing due to denials, underpayment etc.
+\n\n
+The section 'Introduction', should outline the problem of healthcare payments, the complexity in identifying underpayments and denials and creating an automated appeal for an individual claim or a set of claims
+\n
+- You should talk about the different EDI documents, charge masters, healthcare contracts between hospitals and insurance carriers and any other knowledge that is required
+\n
+In the section 'Architecture', you should look at a multi-agent architecture with agents having expertise in different areas such as the EDI documents, Adjustment reason codes, Procedure codes, Revenue codes, Legal protections for consumers and how all these agents can interact with each other to make sure that a robust denial and underpayemnt management system is built. You will discuss each agent the skills the tools that they have access to and the actions they can take. You will look at actions that each agent takes, how they work together and how the output will result in something meaningful for the hospital Operations and Finance staff. You will provide examples using synthetically generated claim data and various complex scenarios where an agent based system can identify denials and underpayment with ease. 
+"
+results: "
+This is an example on how you can put a results table.
+<table>
+  <tr>
+      <td> </td>
+      <td> Normal Text Rate</td>
+      <td> Kiroku Rate</td>
+  </tr>
+  <tr>
+    <td> Experiment 1</td>
+    <td> 3 </td>
+    <td> 9 </td>
+  </tr>
+  <tr>
+    <td> Experiment 2</td>
+    <td> 5 </td>
+    <td> 10 </td>
+  </tr>
+</table>
+"
+references:
+- "Harrison Chase, Rotem Weiss. AI Agents in LangGraph. https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph"
+number_of_queries: 8
+max_revisions: 1
+temperature: 0.1
